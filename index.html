@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,"
+    />
+    <title>Tenna's Chest Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/chestClosed.png" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="Options">
+          <button class="Start">Start <img src="img/start.png" /></button>
+          <button class="Restart">Restart <img src="img/restart.png" /></button>
+          <div class="TimerWrap"><p class="Timer">0</p></div>
+        </div>
+      </header>
+      <main>
+        <div class="Results hide">
+          <p id="r1">Points: +20: 0 / +10: 0 / +5: 0 / -5: 0</p>
+          <p id="r2">Score: 0 / 100</p>
+          <p id="r3">You Win</p>
+        </div>
+        <div class="Chests">
+          <button class="chest" id="1">
+            <img src="img/chestClosed.png" />
+          </button>
+          <button class="chest" id="2">
+            <img src="img/chestClosed.png" />
+          </button>
+          <button class="chest" id="3">
+            <img src="img/chestClosed.png" />
+          </button>
+          <button class="chest" id="4">
+            <img src="img/chestClosed.png" />
+          </button>
+          <button class="chest" id="5">
+            <img src="img/chestClosed.png" />
+          </button>
+          <button class="chest" id="6">
+            <img src="img/chestClosed.png" />
+          </button>
+        </div>
+
+        <div class="StageWrapper">
+          <div class="Tenna">
+            <img
+              class="TennaPose"
+              src="img/Tenna_1.png"
+              alt="Tenna not found"
+            />
+          </div>
+          <div class="Speech">
+            <img src="img/speech.png" />
+            <p class="text">Hello</p>
+          </div>
+          <div class="Kris">
+            <img src="img/kris.png" />
+          </div>
+          <div class="Podium">
+            <img class="Podium" src="img/podium.png" />
+            <p class="Score">Score</p>
+            <p class="ScoreChange">+10</p>
+          </div>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

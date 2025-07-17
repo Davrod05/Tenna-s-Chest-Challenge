@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Deltarune";
+  src: url("undertale-deltarune-text-font-extended.otf");
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0b1b7d;
+  background-image: url(img/starbg2.png);
+  background-repeat: repeat;
+  background-size: 10rem 10rem;
+  animation: moveStars 100s linear infinite;
+}
+@keyframes moveStars {
+  0% {
+    background-position: top right;
+  }
+  100% {
+    background-position: bottom left;
+  }
+}
+
+/* MENU */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(0, 0, 0);
+  height: 8rem;
+  border-bottom: 3px solid white;
+  width: 100%;
+}
+
+.Options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+.TimerWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+}
+
+.Timer {
+  font-family: deltarune;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  padding-left: 12rem;
+  padding-top: 0.2rem;
+  opacity: 20%;
+}
+
+.Options button {
+  display: flex;
+  column-gap: 2rem;
+  height: 3rem;
+  width: 100%;
+  max-width: 230px;
+  font-size: 2.4vh;
+  font-family: Deltarune;
+  color: white;
+  background: black;
+  border: solid #fb7f23 2px;
+  text-align: start;
+  padding-left: 0.4rem;
+}
+
+.Options .Restart img {
+  padding: 0.1rem;
+  position: relative;
+  height: auto;
+}
+
+.Options .Start img {
+  padding: 0.1rem;
+  position: relative;
+  height: auto;
+}
+
+.Options .Restart {
+  opacity: 20%;
+  transition: 0.5s;
+}
+.Options .Start {
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+/* CHESTS */
+main {
+  flex: 1;
+}
+
+.Chests {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  row-gap: 30px;
+  column-gap: 30px;
+  padding: 3rem;
+  filter: grayscale(100%);
+}
+
+main button {
+  background: transparent;
+  border: none;
+  font-size: 0;
+}
+
+main button img {
+  height: 5.5rem;
+  width: 6rem;
+}
+
+/* MAIN */
+.Results.hide {
+  display: none;
+}
+.Results {
+  padding: 2rem;
+  color: white;
+  font-family: deltarune;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  row-gap: 1rem;
+  position: absolute;
+  z-index: 1;
+  left: 7%;
+  top: 25%;
+  width: 20rem;
+  height: 15rem;
+  background-color: rgb(0, 0, 0);
+  border: rgb(255, 255, 255) 2px solid;
+  border-radius: 0.3rem;
+}
+
+.StageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.Tenna {
+  position: absolute;
+  bottom: -23dvh;
+  display: none;
+  transition: left 0.2s ease-out;
+}
+
+.TennaPose {
+  height: 270px;
+}
+
+.Speech {
+  position: absolute;
+  left: 17dvh;
+  top: 3dvh;
+  display: none;
+}
+
+.Speech img {
+  height: 120px;
+  transform: rotate(180deg);
+}
+
+.Speech p {
+  width: auto;
+  height: auto;
+  position: absolute;
+  justify-content: start;
+  bottom: 4px;
+  left: 20px;
+  font-family: deltarune;
+}
+
+.Kris {
+  position: absolute;
+  top: 4dvh;
+  left: 5vh;
+}
+.Kris img {
+  height: 120px;
+}
+.Podium {
+  left: 8%;
+  top: 4.7dvh;
+  position: absolute;
+}
+.Podium img {
+  height: 100px;
+}
+
+.Score {
+  position: absolute;
+  font-family: Deltarune;
+  color: #274b4a;
+  top: 4.3rem;
+  left: 0.7rem;
+}
+
+.ScoreChange {
+  display: none;
+  position: absolute;
+  font-family: Deltarune;
+  color: #ffffff;
+  font-size: 30px;
+  top: 2rem;
+  left: 6rem;
+  transition: top 0.9s ease-out;
+}
+
+.ScoreChange p {
+  box-shadow: 16px 13px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* STAGE */
+footer {
+  background-image: url(img/stage.png);
+  min-height: 7rem;
+  background-size: 140vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 1px 4px 5px 11px rgba(0, 0, 0, 0.2);
+}
