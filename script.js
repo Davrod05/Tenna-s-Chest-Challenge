@@ -84,7 +84,7 @@ const StartGame = function () {
   document.querySelector(".Timer").textContent = Time;
 
   setTimeout(() => {
-    Tenna.style.left = "22px";
+    Tenna.style.left = "200px";
   }, 50);
 
   if (FirstPlay == true) {
@@ -105,8 +105,8 @@ const StartGame = function () {
     document.querySelector(".Timer").style.opacity = "100%";
     ScoreTxt.textContent = "0";
     ScoreTxt.style.fontSize = "23px";
-    ScoreTxt.style.top = "2rem";
-    ScoreTxt.style.left = "1.0rem";
+    ScoreTxt.style.top = "30px";
+    ScoreTxt.style.left = "20px";
     IsGameStarted = true;
     newRNG();
     document.querySelector(".wrapper").style.animation =
