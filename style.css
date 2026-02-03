@@ -244,7 +244,7 @@ main button img {
 /* STAGE */
 footer {
   background-image: url(img/stage.png);
-  min-height: 100px;
+  min-height: 400px;
   background-size: 140px;
   background-repeat: no-repeat;
   background-position: center;
