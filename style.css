@@ -17,10 +17,6 @@
   overflow: hidden;
 }
 
-.body {
-  background-color: black;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -169,7 +165,6 @@ main button img {
 }
 
 .Tenna {
-  position: absolute;
   left: 0;
   bottom: 0;
   display: none;
@@ -181,7 +176,6 @@ main button img {
 }
 
 .Speech {
-  position: absolute;
   left: 17dvh;
   top: 3dvh;
   display: none;
@@ -195,7 +189,6 @@ main button img {
 .Speech p {
   width: auto;
   height: auto;
-  position: absolute;
   justify-content: start;
   bottom: 4px;
   left: 20px;
@@ -203,7 +196,6 @@ main button img {
 }
 
 .Kris {
-  position: absolute;
   left: 18px;
   bottom: 110px;
 }
@@ -213,14 +205,12 @@ main button img {
 .Podium {
   left: 8%;
   top: 4.7px;
-  position: absolute;
 }
 .Podium img {
   height: 100px;
 }
 
 .Score {
-  position: absolute;
   font-family: Deltarune;
   color: #274b4a;
   top: 4.3rem;
@@ -229,7 +219,6 @@ main button img {
 
 .ScoreChange {
   display: none;
-  position: absolute;
   font-family: Deltarune;
   color: #ffffff;
   font-size: 30px;
