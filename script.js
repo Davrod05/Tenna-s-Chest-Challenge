@@ -72,7 +72,6 @@ let StartTime = 9.6;
 
 /* GAME START */
 const StartGame = function () {
-  document.querySelector("html").requestFullscreen();
   restart.disabled = true;
   restart.style.opacity = "20%";
   print("Game Start");

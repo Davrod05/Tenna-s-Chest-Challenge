@@ -166,7 +166,7 @@ main button img {
 
 .Tenna {
   position: absolute;
-  right: 100px;
+  right: 400px;
   top: 4.7px;
   display: none;
   transition: left 0.2s ease-out;
@@ -207,7 +207,7 @@ main button img {
   height: 120px;
 }
 .Podium {
-  left: 25px;
+  left: 15px;
   top: 28px;
   position: absolute;
 }
