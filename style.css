@@ -174,6 +174,9 @@ main button img {
 
 .TennaPose {
   height: 270px;
+  position: absolute;
+  right: 400px;
+  top: 4.7px;
 }
 
 .Speech {
@@ -194,7 +197,7 @@ main button img {
   position: absolute;
   justify-content: start;
   bottom: 4px;
-  left: 20px;
+  left: 10px;
   font-family: deltarune;
 }
 
@@ -219,8 +222,8 @@ main button img {
   position: absolute;
   font-family: Deltarune;
   color: #274b4a;
-  top: 4.3rem;
-  left: 0.7rem;
+  top: 4rem;
+  left: 1rem;
 }
 
 .ScoreChange {
