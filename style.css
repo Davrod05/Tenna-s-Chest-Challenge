@@ -222,8 +222,8 @@ main button img {
   position: absolute;
   font-family: Deltarune;
   color: #274b4a;
-  top: 4rem;
-  left: 1rem;
+  top: 30px;
+  left: 10px;
 }
 
 .ScoreChange {
