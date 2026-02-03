@@ -166,8 +166,8 @@ main button img {
 
 .Tenna {
   position: absolute;
-  left: 18px;
-  bottom: 90px;
+  left: 8%;
+  top: 4.7px;
   display: none;
   transition: left 0.2s ease-out;
 }
@@ -200,8 +200,8 @@ main button img {
 
 .Kris {
   position: absolute;
-  left: 18px;
-  bottom: 90px;
+  left: 8%;
+  top: 4.7px;
 }
 .Kris img {
   height: 120px;
