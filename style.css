@@ -17,6 +17,10 @@
   overflow: hidden;
 }
 
+.body {
+  background-color: black;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
