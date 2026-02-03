@@ -222,8 +222,8 @@ main button img {
   position: absolute;
   font-family: Deltarune;
   color: #274b4a;
-  top: 40px;
-  left: 20px;
+  top: 60px;
+  left: 26px;
 }
 
 .ScoreChange {
@@ -244,8 +244,8 @@ main button img {
 /* STAGE */
 footer {
   background-image: url(img/stage.png);
-  min-height: 7rem;
-  background-size: 140vw;
+  min-height: 100px;
+  background-size: 140px;
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 1px 4px 5px 11px rgba(0, 0, 0, 0.2);
