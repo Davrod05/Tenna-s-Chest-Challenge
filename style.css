@@ -200,15 +200,15 @@ main button img {
 
 .Kris {
   position: absolute;
-  left: 8%;
-  top: 4.7px;
+  left: 40px;
+  top: 20px;
 }
 .Kris img {
   height: 120px;
 }
 .Podium {
-  left: 8%;
-  top: 20px;
+  left: 40px;
+  top: 28px;
   position: absolute;
 }
 .Podium img {
