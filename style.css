@@ -245,7 +245,7 @@ main button img {
 footer {
   background-image: url(img/stage.png);
   min-height: 400px;
-  background-size: 300px;
+  background-size: 500px;
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 1px 4px 5px 11px rgba(0, 0, 0, 0.2);
