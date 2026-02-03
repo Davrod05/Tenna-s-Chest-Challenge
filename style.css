@@ -9,10 +9,9 @@
   src: url("undertale-deltarune-text-font-extended.otf");
 }
 .wrapper {
-  max-width: 380px;
-  max-height: 800px;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   background-color: #0b1b7d;
   background-image: url(img/starbg2.png);
   background-repeat: repeat;
