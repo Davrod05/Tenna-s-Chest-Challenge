@@ -12,7 +12,7 @@
 .resForce {
   width: 380px;
   height: 800px;
-  background: black;
+  background-color: black;
   flex: 0 0 auto;
   overflow: hidden;
 }
