@@ -68,7 +68,7 @@ const newRNG = function () {
 };
 
 let IsGameStarted = false;
-let StartTime = 8;
+let StartTime = 7;
 
 /* GAME START */
 const StartGame = function () {
