@@ -177,7 +177,7 @@ main button img {
 
 .Speech {
   position: absolute;
-  left: 150px;
+  left: 145px;
   top: 30px;
   display: none;
 }
@@ -192,8 +192,8 @@ main button img {
   height: auto;
   position: absolute;
   justify-content: start;
-  bottom: 4px;
-  left: 1px;
+  bottom: 5px;
+  left: 10px;
   font-family: deltarune;
 }
 
