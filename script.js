@@ -141,7 +141,7 @@ const StartGame = function () {
         } else {
           document.getElementById("r3").textContent = `You Lose`;
           Gasp.play();
-          dialoge("Sorry Folks no Winner today...", 1, "Tenna_confused", false);
+          dialoge("Unlucky...", 1, "Tenna_confused", false);
           restart.style.opacity = "100%";
           restart.disabled = false;
         }
