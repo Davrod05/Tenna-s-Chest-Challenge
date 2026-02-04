@@ -99,7 +99,7 @@ const StartGame = function () {
       if (Time >= 0) {
         document.querySelector(".Timer").textContent = Time;
       }
-    }, 1 * 1000);
+    }, 1 * 900);
     document.querySelector(".Chests").style.filter = "grayscale(0%)";
     document.querySelector(".Timer").style.opacity = "100%";
     ScoreTxt.textContent = "0";
