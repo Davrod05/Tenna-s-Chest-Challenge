@@ -172,7 +172,8 @@ main button img {
 .TennaPose {
   height: 50px;
   position: absolute;
-  left: 40px;
+  left: 60px;
+  bottom: 70px;
 }
 
 .Speech {
