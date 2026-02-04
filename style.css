@@ -228,8 +228,8 @@ main button img {
   font-family: Deltarune;
   color: #ffffff;
   font-size: 30px;
-  top: 40px;
-  left: 20px;
+  top: 10px;
+  left: 40px;
   transition: top 0.9s ease-out;
 }
 
