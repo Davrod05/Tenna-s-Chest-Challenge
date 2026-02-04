@@ -68,7 +68,7 @@ const newRNG = function () {
 };
 
 let IsGameStarted = false;
-let StartTime = 9.6;
+let StartTime = 8;
 
 /* GAME START */
 const StartGame = function () {
@@ -90,7 +90,7 @@ const StartGame = function () {
   if (FirstPlay == true) {
     dialoge("Welcome for another challenge!", 0.5, "Tenna_1", false);
     dialoge("Find hearts inside the chests", 3, "Tenna_1", false);
-    dialoge("100p to Win, Good luck!", 6, "Tenna_excited", true);
+    dialoge("100p to Win, Good luck!", 7, "Tenna_excited", true);
   }
   setTimeout(() => {
     ChestStart.play();
