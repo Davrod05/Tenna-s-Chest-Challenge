@@ -9,13 +9,13 @@
   src: url("undertale-deltarune-text-font-extended.otf");
 }
 
-.resForce {
+/*.resForce {
   width: 380px;
   height: 800px;
   background-color: black;
   flex: 0 0 auto;
   overflow: hidden;
-}
+}*/
 
 .wrapper {
   display: flex;
