@@ -218,8 +218,8 @@ main button img {
   position: absolute;
   font-family: Deltarune;
   color: #274b4a;
-  top: 40px;
-  left: 15px;
+  top: 60px;
+  left: 26px;
 }
 
 .ScoreChange {
@@ -228,8 +228,8 @@ main button img {
   font-family: Deltarune;
   color: #ffffff;
   font-size: 30px;
-  top: 2rem;
-  left: 6rem;
+  top: 30px;
+  left: 10px;
   transition: top 0.9s ease-out;
 }
 
