@@ -147,7 +147,7 @@ const StartGame = function () {
         }
       }, 5 * 1000);
     }, Time * 1000);
-  }, StartTime * 500);
+  }, StartTime * 700);
 
   start.style.opacity = "20%";
   start.disabled = true;
