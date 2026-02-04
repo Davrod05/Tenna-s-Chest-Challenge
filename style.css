@@ -193,7 +193,7 @@ main button img {
   position: absolute;
   justify-content: start;
   bottom: 4px;
-  left: 10px;
+  left: 1px;
   font-family: deltarune;
 }
 
@@ -229,7 +229,7 @@ main button img {
   color: #ffffff;
   font-size: 30px;
   top: 10px;
-  left: 40px;
+  left: 80px;
   transition: top 0.9s ease-out;
 }
 
