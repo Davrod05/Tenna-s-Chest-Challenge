@@ -165,15 +165,12 @@ main button img {
 }
 
 .Tenna {
-  position: absolute;
-  right: 400px;
-  top: 4.7px;
   display: none;
   transition: left 0.2s ease-out;
 }
 
 .TennaPose {
-  height: 270px;
+  height: 50px;
   position: absolute;
   right: 400px;
   top: 4.7px;
