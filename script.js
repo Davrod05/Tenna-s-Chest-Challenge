@@ -104,8 +104,8 @@ const StartGame = function () {
     document.querySelector(".Timer").style.opacity = "100%";
     ScoreTxt.textContent = "0";
     ScoreTxt.style.fontSize = "23px";
-    ScoreTxt.style.top = "50px";
-    ScoreTxt.style.left = "25px";
+    ScoreTxt.style.top = "60px";
+    ScoreTxt.style.left = "35px";
     IsGameStarted = true;
     newRNG();
     document.querySelector(".wrapper").style.animation =
