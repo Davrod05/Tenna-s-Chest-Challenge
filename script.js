@@ -117,6 +117,7 @@ const StartGame = function () {
     setTimeout(() => {
       document.querySelector(".Timer").style.opacity = "20%";
       Chests.forEach(function (button) {
+        IsGameStarted = false;
         button.disabled = true;
       });
       BgMusic.pause();
