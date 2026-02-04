@@ -166,14 +166,16 @@ main button img {
 
 .Tenna {
   display: none;
+  left: 40px;
+  top: 20px;
   transition: left 0.2s ease-out;
 }
 
 .TennaPose {
   height: 50px;
   position: absolute;
-  right: 400px;
-  top: 4.7px;
+  left: 40px;
+  top: 20px;
 }
 
 .Speech {
