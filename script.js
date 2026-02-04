@@ -84,7 +84,7 @@ const StartGame = function () {
   document.querySelector(".Timer").textContent = Time;
 
   setTimeout(() => {
-    Tenna.style.left = "2px";
+    Tenna.style.left = "200px";
   }, 50);
 
   if (FirstPlay == true) {

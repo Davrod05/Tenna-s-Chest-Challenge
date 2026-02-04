@@ -166,7 +166,6 @@ main button img {
 .Tenna {
   display: none;
   left: 40px;
-  top: 20px;
   transition: left 0.2s ease-out;
 }
 
@@ -174,7 +173,6 @@ main button img {
   height: 50px;
   position: absolute;
   left: 40px;
-  top: 20px;
 }
 
 .Speech {
