@@ -177,8 +177,8 @@ main button img {
 
 .Speech {
   position: absolute;
-  left: 17dvh;
-  top: 3dvh;
+  left: 170px;
+  top: 30px;
   display: none;
 }
 
@@ -228,8 +228,8 @@ main button img {
   font-family: Deltarune;
   color: #ffffff;
   font-size: 30px;
-  top: 2rem;
-  left: 6rem;
+  top: 40px;
+  left: 20px;
   transition: top 0.9s ease-out;
 }
 
