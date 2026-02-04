@@ -89,8 +89,7 @@ const StartGame = function () {
 
   if (FirstPlay == true) {
     dialoge("Welcome for another challenge!", 0.5, "Tenna_1", false);
-    dialoge("I don't think this is licenced", 3, "Tenna_confused", false);
-    dialoge("Anyways,100 Points to Win", 6, "Tenna_1", false);
+    dialoge("100 Points to Win", 6, "Tenna_1", false);
     dialoge("30 seconds. Good luck!", 8.1, "Tenna_excited", true);
   }
   setTimeout(() => {
