@@ -148,8 +148,8 @@ main button img {
   row-gap: 1rem;
   position: absolute;
   z-index: 1;
-  left: 7%;
-  top: 25%;
+  left: 20px;
+  top: 100px;
   width: 20rem;
   height: 15rem;
   background-color: rgb(0, 0, 0);
@@ -228,8 +228,8 @@ main button img {
   font-family: Deltarune;
   color: #ffffff;
   font-size: 30px;
-  top: 30px;
-  left: 10px;
+  top: 2rem;
+  left: 6rem;
   transition: top 0.9s ease-out;
 }
 
