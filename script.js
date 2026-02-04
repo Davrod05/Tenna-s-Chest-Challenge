@@ -139,7 +139,7 @@ const StartGame = function () {
           restart.style.opacity = "100%";
           restart.disabled = false;
         } else {
-          document.getElementById("r3").textContent = `You Loose`;
+          document.getElementById("r3").textContent = `You Lose`;
           Gasp.play();
           dialoge("Sorry Folks no Winner today...", 1, "Tenna_confused", false);
           restart.style.opacity = "100%";
