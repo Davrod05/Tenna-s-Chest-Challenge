@@ -257,7 +257,7 @@ restart.addEventListener("click", function () {
 
   document.querySelector(".Timer").textContent = Time;
 
-  dialoge("Lets try that again.", 0, "Tenna_Excited", true);
+  dialoge("Lets try that again!", 0, "Tenna_Excited", true);
 
   setTimeout(() => {
     print("restarted");
