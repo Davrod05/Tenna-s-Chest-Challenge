@@ -1,4 +1,4 @@
-Live Site: davrod.dev
+Live Site: (https://davrod.dev/)
 
 HOW TO PLAY:
 - Click the chests to find hearts, their locations are randomized every time.
