@@ -1,3 +1,5 @@
+Live Site: davrod.dev
+
 HOW TO PLAY:
 - Click the chests to find hearts, their locations are randomized every time.
 - You get to open 3 chests at the time.
